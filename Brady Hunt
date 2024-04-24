@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brady Hunt - Welder & Mechanic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .services {
+            margin-top: 30px;
+        }
+
+        .service-item {
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Brady Hunt</h1>
+        <h2>Welder & Mechanic</h2>
+        <p>Hello, I'm Brady, a skilled welder with three AWS certifications in GTAW, SMAW, and GMAW processes. I'm also a
+            self-proclaimed small engines mechanic, proficient in small fabrication and 3D modeling. Additionally, I offer
+            handyman services and can install basic fixtures.</p>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Welding (GTAW, SMAW, GMAW)</li>
+                <li>Small Engines Mechanic</li>
+                <li>Small Fabrication</li>
+                <li>3D Modeling</li>
+                <li>Handyman Services</li>
+            </ul>
+        </div>
+
+        <div class="services">
+            <h2>Services</h2>
+            <div class="service-item">
+                <h3>Welding Services</h3>
+                <p>Proficient in various welding techniques, including GTAW, SMAW, and GMAW. Offering welding services for
+                    metal fabrication, repairs, and custom projects.</p>
+            </div>
+            <div class="service-item">
+                <h3>Mechanical Services</h3>
+                <p>Experienced in diagnosing and repairing small engines. Providing maintenance, repairs, and troubleshooting
+                    for various types of small engines.</p>
+            </div>
+            <div class="service-item">
+                <h3>Fabrication & 3D Modeling</h3>
+                <p>Skilled in small fabrication projects and proficient in creating 3D models for prototyping and design
+                    purposes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Handyman Services</h3>
+                <p>Offering installation services for basic fixtures and repairs for various household items.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>Need my services? Contact me today!</p>
+            <button class="contact-btn">Contact Brady</button>
+        </div>
+    </div>
+</body>
+
+</html>
